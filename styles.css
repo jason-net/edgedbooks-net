@@ -7,7 +7,7 @@ background:#F4C1CA
 .title {
 border-style:inset;
 background-image:linear-gradient(to right,#00BEBB,#C39DB9);
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:#fff;
 font-size:24px;
 letter-spacing:5px
@@ -16,7 +16,7 @@ letter-spacing:5px
 .text {
 border-style:inset;
 background-image:linear-gradient(to right,#00BEBB,#C39DB9);
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:#fff;
 font-size:24px;
 letter-spacing:5px
@@ -25,7 +25,7 @@ letter-spacing:5px
 .link {
 border-style:inset;
 background-image:linear-gradient(to right,#00BEBB,#C39DB9);
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:#fff;
 font-size:24px;
 letter-spacing:5px
@@ -34,7 +34,7 @@ letter-spacing:5px
 div {
 border-style:inset;
 background-color:#A3D9CF;
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:#fff;
 font-size:24px;
 letter-spacing:5px
@@ -43,7 +43,7 @@ letter-spacing:5px
 div2 {
 border-style:inset;
 background-color:transparent;
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:transparent;
 font-size:24px;
 letter-spacing:5px
@@ -107,7 +107,7 @@ transform:translateX(-100%)
 a:link,a:visited {
 border-style:outset;
 background-image:#999;
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:#fff;
 font-size:12px;
 letter-spacing:5px
@@ -116,7 +116,7 @@ letter-spacing:5px
 a:hover,a:active {
 border-style:inset;
 background-image:#999;
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:#fff;
 font-size:12px;
 letter-spacing:5px
@@ -125,7 +125,7 @@ letter-spacing:5px
 p {
 border-style:inset;
 background-color:#fff;
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:#000;
 font-size:12px;
 letter-spacing:5px
@@ -133,7 +133,7 @@ letter-spacing:5px
 
 p2 {
 background-color:transparent;
-font-family:'DotGothic16',sans-serif;
+font-family:'W95FA',sans-serif;
 color:#000;
 font-size:12px;
 letter-spacing:5px
