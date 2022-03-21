@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=DotGothic16&display=swap";
+@import "stylesheet.css";
 
 body {
 background:#F4C1CA
@@ -15,10 +15,10 @@ letter-spacing:5px
 
 .text {
 border-style:inset;
-background-image:linear-gradient(to right,#00BEBB,#C39DB9);
+background-color:transparent;
 font-family:'W95FA',sans-serif;
 color:#fff;
-font-size:24px;
+font-size:12px;
 letter-spacing:5px
 }
 
@@ -27,7 +27,7 @@ border-style:inset;
 background-image:linear-gradient(to right,#00BEBB,#C39DB9);
 font-family:'W95FA',sans-serif;
 color:#fff;
-font-size:24px;
+font-size:12px;
 letter-spacing:5px
 }
 
