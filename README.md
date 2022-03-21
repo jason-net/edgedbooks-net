@@ -1,2 +1,2 @@
 # edgedbooks-net
-its poorly made
+A poorly made Windows98 inspired website for a book company.
