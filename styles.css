@@ -1,0 +1,153 @@
+@import "https://fonts.googleapis.com/css2?family=DotGothic16&display=swap";
+
+body {
+background:#F4C1CA
+}
+
+.title {
+border-style:inset;
+background-image:linear-gradient(to right,#00BEBB,#C39DB9);
+font-family:'DotGothic16',sans-serif;
+color:#fff;
+font-size:24px;
+letter-spacing:5px
+}
+
+.text {
+border-style:inset;
+background-image:linear-gradient(to right,#00BEBB,#C39DB9);
+font-family:'DotGothic16',sans-serif;
+color:#fff;
+font-size:24px;
+letter-spacing:5px
+}
+
+.link {
+border-style:inset;
+background-image:linear-gradient(to right,#00BEBB,#C39DB9);
+font-family:'DotGothic16',sans-serif;
+color:#fff;
+font-size:24px;
+letter-spacing:5px
+}
+
+div {
+border-style:inset;
+background-color:#A3D9CF;
+font-family:'DotGothic16',sans-serif;
+color:#fff;
+font-size:24px;
+letter-spacing:5px
+}
+
+div2 {
+border-style:inset;
+background-color:transparent;
+font-family:'DotGothic16',sans-serif;
+color:transparent;
+font-size:24px;
+letter-spacing:5px
+}
+
+.scroll-left {
+height:50px;
+overflow:hidden;
+position:relative
+}
+
+.scroll-left p2 {
+position:absolute;
+width:100%;
+height:100%;
+margin:0;
+line-height:50px;
+text-align:center;
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%);
+-moz-animation:scroll-left 30s linear infinite;
+-webkit-animation:scroll-left 30s linear infinite;
+animation:scroll-left 30s linear infinite
+}
+
+@-moz-keyframes scroll-left {
+0% {
+-moz-transform:translateX(100%)
+}
+
+100% {
+-moz-transform:translateX(-100%)
+}
+}
+
+@-webkit-keyframes scroll-left {
+0% {
+-webkit-transform:translateX(100%)
+}
+
+100% {
+-webkit-transform:translateX(-100%)
+}
+}
+
+@keyframes scroll-left {
+0% {
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%)
+}
+
+100% {
+-moz-transform:translateX(-100%);
+-webkit-transform:translateX(-100%);
+transform:translateX(-100%)
+}
+}
+
+a:link,a:visited {
+border-style:outset;
+background-image:#999;
+font-family:'DotGothic16',sans-serif;
+color:#fff;
+font-size:12px;
+letter-spacing:5px
+}
+
+a:hover,a:active {
+border-style:inset;
+background-image:#999;
+font-family:'DotGothic16',sans-serif;
+color:#fff;
+font-size:12px;
+letter-spacing:5px
+}
+
+p {
+border-style:inset;
+background-color:#fff;
+font-family:'DotGothic16',sans-serif;
+color:#000;
+font-size:12px;
+letter-spacing:5px
+}
+
+p2 {
+background-color:transparent;
+font-family:'DotGothic16',sans-serif;
+color:#000;
+font-size:12px;
+letter-spacing:5px
+}
+
+#content1::after {
+content:"\a";
+white-space:pre
+}
+
+tr{
+border-style: inset
+}
+
+td{
+border-style: inset
+}
