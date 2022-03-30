@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Unifont';
+    src: url('GNUUnifontFull.eot');
+    src: url('GNUUnifontFull.eot?#iefix') format('embedded-opentype'),
+        url('GNUUnifontFull.woff2') format('woff2'),
+        url('GNUUnifontFull.woff') format('woff'),
+        url('GNUUnifontFull.ttf') format('truetype'),
+        url('GNUUnifontFull.svg#GNUUnifontFull') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
