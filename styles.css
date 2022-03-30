@@ -1,13 +1,47 @@
 @import "stylesheet.css";
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=fallback');
 
 body {
 background:#F4C1CA
 }
+a:link,a:visited {
+border-style:outset;
+background-image:#999;
+font-family:Unifont,DotGothic16;
+color:#fff;
+font-size:12px;
+letter-spacing:5px
+}
 
+a:hover,a:active {
+border-style:inset;
+background-image:#999;
+font-family:Unifont,DotGothic16;
+color:#fff;
+font-size:12px;
+letter-spacing:5px
+}
+
+p {
+border-style:inset;
+background-color:#fff;
+font-family:Unifont,DotGothic16;
+color:#000;
+font-size:12px;
+letter-spacing:5px
+}
+
+p2 {
+background-color:transparent;
+font-family:Unifont,DotGothic16;
+color:#000;
+font-size:12px;
+letter-spacing:5px
+}
 .title {
 border-style:inset;
 background-image:linear-gradient(to right,#00BEBB,#C39DB9);
-font-family:'W95FA',sans-serif;
+font-family:Unifont,DotGothic16;
 color:#fff;
 font-size:24px;
 letter-spacing:5px
@@ -16,7 +50,7 @@ letter-spacing:5px
 .text {
 border-style:inset;
 background-color:transparent;
-font-family:'W95FA',sans-serif;
+font-family:Unifont,DotGothic16;
 color:#fff;
 font-size:12px;
 letter-spacing:5px
@@ -25,7 +59,7 @@ letter-spacing:5px
 .link {
 border-style:inset;
 background-image:linear-gradient(to right,#00BEBB,#C39DB9);
-font-family:'W95FA',sans-serif;
+font-family:Unifont,DotGothic16;
 color:#fff;
 font-size:12px;
 letter-spacing:5px
@@ -34,7 +68,7 @@ letter-spacing:5px
 div {
 border-style:inset;
 background-color:#A3D9CF;
-font-family:'W95FA',sans-serif;
+font-family:'Unifont',DotGothic16;
 color:#fff;
 font-size:24px;
 letter-spacing:5px
@@ -43,7 +77,7 @@ letter-spacing:5px
 div2 {
 border-style:inset;
 background-color:transparent;
-font-family:'W95FA',sans-serif;
+font-family:'Unifont',DotGothic16;
 color:transparent;
 font-size:24px;
 letter-spacing:5px
@@ -102,41 +136,6 @@ transform:translateX(100%)
 -webkit-transform:translateX(-100%);
 transform:translateX(-100%)
 }
-}
-
-a:link,a:visited {
-border-style:outset;
-background-image:#999;
-font-family:'W95FA',sans-serif;
-color:#fff;
-font-size:12px;
-letter-spacing:5px
-}
-
-a:hover,a:active {
-border-style:inset;
-background-image:#999;
-font-family:'W95FA',sans-serif;
-color:#fff;
-font-size:12px;
-letter-spacing:5px
-}
-
-p {
-border-style:inset;
-background-color:#fff;
-font-family:'W95FA',sans-serif;
-color:#000;
-font-size:12px;
-letter-spacing:5px
-}
-
-p2 {
-background-color:transparent;
-font-family:'W95FA',sans-serif;
-color:#000;
-font-size:12px;
-letter-spacing:5px
 }
 
 #content1::after {
